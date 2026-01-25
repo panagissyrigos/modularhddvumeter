@@ -19,12 +19,12 @@ Tiles can be mixed and matched to build a display of any width.
 
 The system is composed of four PCB types, all mechanically and electrically compatible:
 
-| Board Type | LED Matrix | MCP23017 | HDD Headers | ESP32 | Purpose                 |
-|-----------:|-----------:|---------:|------------:|------:|-------------------------|
-| A          | 8x8        | No       | No          | No    | LED-only expansion tile |
-| B          | 8x8        | Yes      | Yes (16)    | No    | Compact input+LED tile  |
-| C          | 8x16       | Yes      | Yes (16)    | No    | Wide input+LED tile     |
-| D          | 8x16       | Yes      | Yes (16)    | Yes   | Master controller tile  |
+| Board Type | LED Matrix | MCP23017 | HDD Headers | ESP32 | Purpose                 | Approximate Power consumption |
+|-----------:|-----------:|---------:|------------:|------:|------------------------:|-------------------------------|
+| A          | 8x8        | No       | No          | No    | LED-only expansion tile | 5V × 3.84A ≈ 19W              |
+| B          | 8x8        | Yes      | Yes (16)    | No    | Compact input+LED tile  | 5V x 3.9A  ≈ 20W              |
+| C          | 8x16       | Yes      | Yes (16)    | No    | Wide input+LED tile     | 5V × 7.68A ≈ 38W              |
+| D          | 8x16       | Yes      | Yes (16)    | Yes   | Master controller tile  | 5V x 8.0 A ≈ 40W              |
 
 All tiles share:
 
