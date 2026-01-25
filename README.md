@@ -26,6 +26,8 @@ The system is composed of four PCB types, all mechanically and electrically comp
 | C          | 8x16       | Yes      | Yes (16)    | No    | Wide input+LED tile     | 5V × 7.68A ≈ 38W              |
 | D          | 8x16       | Yes      | Yes (16)    | Yes   | Master controller tile  | 5V x 8.0 A ≈ 40W              |
 
+** Power consumption assumes full brightness, max load (all 3 RGB LEDs  on at 100%). Realistically, the power requirements will be a lot lower.
+
 All tiles share:
 
 - 5V power rail
